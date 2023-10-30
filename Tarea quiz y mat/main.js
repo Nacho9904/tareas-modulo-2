@@ -28,6 +28,14 @@ console.log('La raiz cuadrada del segundo número es:' + raiz)
 
 let nombreCompleto = prompt('Ingrese su nombre completo:')
 
-console.log (nombreCompleto.split(8))
-console.log (nombreCompleto.charAt(6).toUpperCase(0,1))
-console.log (nombreCompleto.charAt(7).toUpperCase(7))
+let nombreYapellido =nombreCompleto.split(' ')
+
+let nombre = nombreYapellido  [ 0 ]
+let apellido = nombreYapellido  [ 1 ]
+
+nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1)
+apellido = apellido.charAt(0).toUpperCase() + apellido.slice(1)
+
+
+console.log (nombreYapellido)
+console.log (nombre, apellido)
