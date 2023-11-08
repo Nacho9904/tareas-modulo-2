@@ -1,4 +1,4 @@
-//Suma 3+5//
+/* //Suma 3+5//
 let Suma = 3 + 5
 
 console.log ('El resultado de la suma es:', Suma)
@@ -58,7 +58,7 @@ if (n5 > mayorNum) {
 console.log("El número mayor es: ", mayorNum);
 
 
-const numero = prompt("Introduce un número: ");
+const numero = prompt("Introduce un número: "); */
 
 
 if (numero % 2 === 0) {
