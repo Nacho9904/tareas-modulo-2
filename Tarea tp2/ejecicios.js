@@ -65,7 +65,6 @@ console.log (frase)
 
 /* ejercicio 14 */
 
-// Pedimos el texto al usuario
 let texto = prompt("Introduce un texto: ");
 
 
